@@ -1,6 +1,6 @@
-package aidar.warmup1;
+package codingbat.aidar.warmup1;
 
-public class sleepIn {
+public class SleepIn {
     public boolean sleepIn(boolean weekday, boolean vacation) {
         if (!weekday || vacation){
             return true;

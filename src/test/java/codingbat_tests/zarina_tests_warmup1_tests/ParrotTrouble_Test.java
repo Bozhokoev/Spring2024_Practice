@@ -1,7 +1,6 @@
 package codingbat_tests.zarina_tests_warmup1_tests;
 
 import codingbat.zarina.warmup1.ParrotTrouble;
-import com.beust.ah.A;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -9,7 +8,7 @@ import org.testng.annotations.Test;
 public class ParrotTrouble_Test {
     ParrotTrouble parrotTrouble = new ParrotTrouble();
 
-    @DataProvider (name = "Parrot Trouble")
+    @DataProvider(name = "Parrot Trouble")
     public Object [][] dpParrotTrouble(){
         return new Object[][]{
                 {true, 7, false},
@@ -23,8 +22,9 @@ public class ParrotTrouble_Test {
                 {false, 12,false}
         };
     }
-    @Test (description = "Verify PT", dataProvider = "Parrot Trouble")
+    @Test(description = "Verify PT", dataProvider = "Parrot Trouble")
     public void parrotTroubleTest (boolean a, int b, boolean res){
         Assert.assertEquals(parrotTrouble.parrotTrouble(a,b),res);
     }
 }
+

@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class SleepInTest {
+public class SleepIn_Test {
     SleepIn sleepIn = new SleepIn();
 
     @DataProvider(name = "sleep_in data_true")

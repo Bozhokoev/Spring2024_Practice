@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.AssertJUnit.assertEquals;
 
-public class MonkeyTroubleTest {
+public class MonkeyTrouble_Test {
     @DataProvider(name = "monkeyTroubleData")
     public Object[][] createData() {
         return new Object[][]{

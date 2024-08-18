@@ -24,7 +24,7 @@ public class ParrotTrouble_Test {
         };
     }
     @Test (description = "Verify PT", dataProvider = "Parrot Trouble")
-    public void parrotTrouble (boolean a, int b, boolean res){
+    public void parrotTroubleTest (boolean a, int b, boolean res){
         Assert.assertEquals(parrotTrouble.parrotTrouble(a,b),res);
     }
 }

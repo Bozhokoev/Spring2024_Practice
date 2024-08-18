@@ -23,5 +23,4 @@ public class MissingChar_Test {
     public void missingChar(String str, int index, String expected){
         Assert.assertEquals(missingChar.missingChar(str, index), expected);
     }
-
 }

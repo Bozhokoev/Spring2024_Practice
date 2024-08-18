@@ -20,7 +20,7 @@ public class Makes10_Test {
 
         };
     }
-    @Test(description = "Verify sleep in function", dataProvider = "makes10")
+    @Test(description = "Verify makes10 function", dataProvider = "makes10")
     public void makes10Test(int a, int b, boolean res){
         Assert.assertEquals(makes10.makes10(a, b), res);
     }

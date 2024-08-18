@@ -1,0 +1,33 @@
+Index: src/test/java/codingbat_tests/asylzat/tests_warmup1_test/ParrotTrouble_Test.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package codingbat_tests.asylzat.tests_warmup1_test;\n\nimport org.testng.annotations.DataProvider;\nimport org.testng.annotations.Test;\n\npublic class ParrotTrouble_Test {\n\n    public boolean parrotTrouble(boolean talking,int hour){\n        return  talking && (hour < 7 || hour > 20);\n    }\n    @DataProvider (name = \"parrotData\")\n    public Object[][] createData(){\n        return new Object[][] {\n                {true, 6, true},\n                {true, 7, false},// в примере указывает\n                {false, 6, false},// говорить ли попугай  который час и какой\n                {true, 21, true},  // результат мы ожидаем\n                {false, 21, false},\n                {false, 21, false}\n        };\n    }\n    @Test(dataProvider = \"parrotData\")\n    public void testTrouble(boolean talking, int hour,boolean expected) {\n        assert  parrotTrouble(talking,hour) == expected; // правильно ли работает метод parrotTrouble\n    }\n}\n
+===================================================================
+diff --git a/src/test/java/codingbat_tests/asylzat/tests_warmup1_test/ParrotTrouble_Test.java b/src/test/java/codingbat_tests/asylzat/tests_warmup1_test/ParrotTrouble_Test.java
+--- a/src/test/java/codingbat_tests/asylzat/tests_warmup1_test/ParrotTrouble_Test.java	
++++ b/src/test/java/codingbat_tests/asylzat/tests_warmup1_test/ParrotTrouble_Test.java	
+@@ -3,24 +3,3 @@
+ import org.testng.annotations.DataProvider;
+ import org.testng.annotations.Test;
+ 
+-public class ParrotTrouble_Test {
+-
+-    public boolean parrotTrouble(boolean talking,int hour){
+-        return  talking && (hour < 7 || hour > 20);
+-    }
+-    @DataProvider (name = "parrotData")
+-    public Object[][] createData(){
+-        return new Object[][] {
+-                {true, 6, true},
+-                {true, 7, false},// в примере указывает
+-                {false, 6, false},// говорить ли попугай  который час и какой
+-                {true, 21, true},  // результат мы ожидаем
+-                {false, 21, false},
+-                {false, 21, false}
+-        };
+-    }
+-    @Test(dataProvider = "parrotData")
+-    public void testTrouble(boolean talking, int hour,boolean expected) {
+-        assert  parrotTrouble(talking,hour) == expected; // правильно ли работает метод parrotTrouble
+-    }
+-}

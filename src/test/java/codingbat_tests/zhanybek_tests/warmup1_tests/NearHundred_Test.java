@@ -37,6 +37,7 @@ public class NearHundred_Test {
         boolean result = nearHundred.nearHundred(n);
         System.out.println("Running test with n: " + n + " -> Expected: " + expected + ", Result: " + result);
         Assert.assertEquals(result, expected, "The nearHundred method failed for input: " + n);
+        System.out.println("Hello");
 
     }
 

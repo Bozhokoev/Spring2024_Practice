@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Makes10_Test {
 
-    Makes10 makes10= new Makes10();
+    Makes10 makes10 = new Makes10();
 
     @DataProvider(name = "makes10")
     public Object[][] dpMakes10(){

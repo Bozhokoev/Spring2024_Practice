@@ -1,4 +1,4 @@
-package codingbat_tests.akbar_tests.warmup_tests;
+package codingbat_tests.akbar_tests.warmup1_tests;
 
 import codingbat.akbar.warmup1.SleepIn;
 import org.testng.Assert;

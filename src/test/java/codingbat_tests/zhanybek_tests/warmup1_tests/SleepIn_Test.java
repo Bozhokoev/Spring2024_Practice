@@ -1,6 +1,6 @@
-package codingbat_tests.zhanybek_test_warmup1_test;
+package codingbat_tests.zhanybek_tests.warmup1_tests;
 
-import codingbat.zhanybek.warmup1.SleepIn;
+import codingbat.akim.warmup1.SleepIn;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -32,3 +32,4 @@ public class SleepIn_Test {
         Assert.assertEquals(sleepIn.sleepIn(a, b), false);
     }
 }
+

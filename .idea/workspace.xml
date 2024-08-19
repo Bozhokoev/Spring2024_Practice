@@ -39,6 +39,7 @@
     "TestNG.MonkeyTrouble_Test.testMonkeyTrouble.executor": "Run",
     "TestNG.NearHundred_Test.nearHundredTest.executor": "Run",
     "TestNG.ParrotTrouble_Test.parrotTroubleTest.executor": "Run",
+    "TestNG.PosNegTest.testPosNeg.executor": "Run",
     "TestNG.SumDoubleTest.executor": "Run",
     "TestNG.SumDoubleTest.testSumDouble (1).executor": "Run",
     "TestNG.SumDoubleTest.testSumDouble.executor": "Run",
@@ -50,7 +51,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.NearHundred_Test.nearHundredTest">
+  <component name="RunManager" selected="TestNG.PosNegTest.testPosNeg">
     <configuration name="Diff21_Test.testDiff21" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Spring2024_Practice" />
       <extension name="coverage">
@@ -123,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumDoubleTest.testSumDouble" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PosNegTest.testPosNeg" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Spring2024_Practice" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +133,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="codingbat_tests.jyldyzbek_tests.warmup1_tests" />
-      <option name="MAIN_CLASS_NAME" value="codingbat_tests.jyldyzbek_tests.warmup1_tests.SumDoubleTest" />
-      <option name="METHOD_NAME" value="testSumDouble" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.jyldyzbek_tests.warmup1_tests.PosNegTest" />
+      <option name="METHOD_NAME" value="testPosNeg" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PosNegTest.testPosNeg" />
         <item itemvalue="TestNG.NearHundred_Test.nearHundredTest" />
         <item itemvalue="TestNG.Makes10_Test.makes10Test" />
         <item itemvalue="TestNG.ParrotTrouble_Test.parrotTroubleTest" />
         <item itemvalue="TestNG.Diff21_Test.testDiff21" />
-        <item itemvalue="TestNG.SumDoubleTest.testSumDouble" />
       </list>
     </recent_temporary>
   </component>
@@ -179,5 +180,20 @@
       <updated>1723828367664</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/codingbat_tests/jyldyzbek_tests/warmup1_tests/PosNegTest.java</url>
+          <line>35</line>
+          <properties class="codingbat_tests.jyldyzbek_tests.warmup1_tests.PosNegTest" method="testPosNeg">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

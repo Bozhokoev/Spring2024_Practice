@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="605a2dbb-d50f-405c-b47c-6e6e651800e1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2kkX5tNIBEJtMCj3QfRcWVgbTyE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.Spring2024_Practice [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Diff21_Test.testDiff21.executor": "Run",
+    "TestNG.Makes10_Test.makes10Test.executor": "Run",
+    "TestNG.MonkeyTroubleTest.testMonkeyTrouble.executor": "Run",
+    "TestNG.MonkeyTrouble_Test.testMonkeyTrouble.executor": "Run",
+    "TestNG.NearHundred_Test.nearHundredTest.executor": "Run",
+    "TestNG.ParrotTrouble_Test.parrotTroubleTest.executor": "Run",
+    "TestNG.SumDoubleTest.executor": "Run",
+    "TestNG.SumDoubleTest.testSumDouble (1).executor": "Run",
+    "TestNG.SumDoubleTest.testSumDouble.executor": "Run",
+    "TestNG.SumDouble_Test.executor": "Run",
+    "TestNG.SumDouble_Test.testSumDouble.executor": "Run",
+    "TestNG.codingbat_tests.zhanybek_tests.warmup1_tests.SleepInTest,sleepInTestTrue and 1 more.executor": "Run",
+    "git-widget-placeholder": "zhanybek",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.NearHundred_Test.nearHundredTest">
+    <configuration name="Diff21_Test.testDiff21" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.zhanybek_tests.warmup1_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.zhanybek_tests.warmup1_tests" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.zhanybek_tests.warmup1_tests.Diff21_Test" />
+      <option name="METHOD_NAME" value="testDiff21" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Makes10_Test.makes10Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.zhanybek_tests.warmup1_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.zhanybek_tests.warmup1_tests" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.zhanybek_tests.warmup1_tests.Makes10_Test" />
+      <option name="METHOD_NAME" value="makes10Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NearHundred_Test.nearHundredTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.zhanybek_tests.warmup1_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.zhanybek_tests.warmup1_tests" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.zhanybek_tests.warmup1_tests.NearHundred_Test" />
+      <option name="METHOD_NAME" value="nearHundredTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParrotTrouble_Test.parrotTroubleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.zhanybek_tests.warmup1_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.zhanybek_tests.warmup1_tests" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.zhanybek_tests.warmup1_tests.ParrotTrouble_Test" />
+      <option name="METHOD_NAME" value="parrotTroubleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumDoubleTest.testSumDouble" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.jyldyzbek_tests.warmup1_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.jyldyzbek_tests.warmup1_tests" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.jyldyzbek_tests.warmup1_tests.SumDoubleTest" />
+      <option name="METHOD_NAME" value="testSumDouble" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumDoubleTest.testSumDouble" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.zhanybek_tests.warmup1_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.zhanybek_tests.warmup1_tests" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.zhanybek_tests.warmup1_tests.SumDoubleTest" />
+      <option name="METHOD_NAME" value="testSumDouble" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.NearHundred_Test.nearHundredTest" />
+        <item itemvalue="TestNG.Makes10_Test.makes10Test" />
+        <item itemvalue="TestNG.ParrotTrouble_Test.parrotTroubleTest" />
+        <item itemvalue="TestNG.Diff21_Test.testDiff21" />
+        <item itemvalue="TestNG.SumDoubleTest.testSumDouble" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="605a2dbb-d50f-405c-b47c-6e6e651800e1" name="Changes" comment="" />
+      <created>1723828367664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723828367664</updated>
+    </task>
+    <servers />
+  </component>
+</project>

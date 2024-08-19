@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01627be6-b2a9-4378-ba34-97da6ec2c461" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="01627be6-b2a9-4378-ba34-97da6ec2c461" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +32,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CountXX_Test.executor": "Run",
     "TestNG.FrontTimes_Test.executor": "Run",
     "TestNG.MonkeyTrouble_Test.executor": "Run",
     "TestNG.NearHundred_Test.executor": "Run",
@@ -57,7 +56,24 @@
       <recent name="codingbat.vika.warmup1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FrontTimes_Test">
+  <component name="RunManager" selected="TestNG.CountXX_Test">
+    <configuration name="CountXX_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.vika_tests.warmup2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup2" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup2.CountXX_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FrontTimes_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Spring2024_Practice" />
       <extension name="coverage">
@@ -85,23 +101,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup1" />
       <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup1.MonkeyTrouble_Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NearHundred_Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Spring2024_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingbat_tests.vika_tests.warmup1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup1" />
-      <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup1.NearHundred_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CountXX_Test" />
         <item itemvalue="TestNG.FrontTimes_Test" />
         <item itemvalue="TestNG.StringTimes_Test" />
         <item itemvalue="TestNG.PosNeg_Test" />
         <item itemvalue="TestNG.MonkeyTrouble_Test" />
-        <item itemvalue="TestNG.NearHundred_Test" />
       </list>
     </recent_temporary>
   </component>

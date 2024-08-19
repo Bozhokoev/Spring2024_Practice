@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01627be6-b2a9-4378-ba34-97da6ec2c461" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codingbat/vika/warmup2/StringTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codingbat/vika/warmup2/StringTimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/codingbat_tests/vika_tests/warmup2/StringTimes_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/codingbat_tests/vika_tests/warmup2/StringTimes_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +37,12 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.MonkeyTrouble_Test.executor": "Run",
+    "TestNG.NearHundred_Test.executor": "Run",
+    "TestNG.PosNeg_Test.executor": "Run",
+    "TestNG.SleepIn_Test.executor": "Run",
+    "TestNG.StringTimes_Test.executor": "Run",
     "TestNG.SumDouble_Test.executor": "Run",
-    "git-widget-placeholder": "vika/warmup1",
+    "git-widget-placeholder": "vika/warmup2",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -53,7 +58,7 @@
       <recent name="codingbat.vika.warmup1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PosNeg_Test">
+  <component name="RunManager" selected="TestNG.StringTimes_Test">
     <configuration name="MonkeyTrouble_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Spring2024_Practice" />
       <extension name="coverage">
@@ -122,16 +127,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumDouble_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTimes_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Spring2024_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codingbat_tests.vika_tests.warmup1.*" />
+          <option name="PATTERN" value="codingbat_tests.vika_tests.warmup2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup1" />
-      <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup1.SumDouble_Test" />
+      <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup2" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup2.StringTimes_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -141,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StringTimes_Test" />
         <item itemvalue="TestNG.PosNeg_Test" />
         <item itemvalue="TestNG.MonkeyTrouble_Test" />
         <item itemvalue="TestNG.NearHundred_Test" />
         <item itemvalue="TestNG.SleepIn_Test" />
-        <item itemvalue="TestNG.SumDouble_Test" />
       </list>
     </recent_temporary>
   </component>

@@ -5,8 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class sleepIn_Test {
-    public class SleepIn_Test {
+public class SleepIn_Test {
         SleepIn sleepIn = new SleepIn();
 
         @DataProvider(name = "sleep_in data_true")
@@ -33,4 +32,4 @@ public class sleepIn_Test {
             Assert.assertEquals(sleepIn.sleepIn(a, b), false);
         }
     }
-}
+

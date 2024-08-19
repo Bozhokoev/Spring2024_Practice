@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class diff21_Test {
+public class Diff21_Test {
     @DataProvider(name = "Diff21_Data")
     public Object[][] diff21Data(){
         return new Object[][]{

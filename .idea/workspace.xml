@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01627be6-b2a9-4378-ba34-97da6ec2c461" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingbat/vika/warmup2/StringYak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codingbat/vika/warmup2/StringYak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codingbat/vika/warmup2/Array667.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codingbat/vika/warmup2/Array667.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/codingbat_tests/vika_tests/warmup2/Array667_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/codingbat_tests/vika_tests/warmup2/Array667_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.AltPairs_Test.executor": "Run",
     "TestNG.Array123_Test.executor": "Run",
+    "TestNG.Array667_Test.executor": "Run",
     "TestNG.ArrayCount9_Test.executor": "Run",
     "TestNG.ArrayFront9_Test.executor": "Run",
     "TestNG.CountXX_Test.executor": "Run",
@@ -51,6 +53,7 @@
     "TestNG.StringSplosion_Test.executor": "Run",
     "TestNG.StringTimes_Test.executor": "Run",
     "TestNG.StringX_Test.executor": "Run",
+    "TestNG.StringYak_Test.executor": "Run",
     "TestNG.SumDouble_Test.executor": "Run",
     "git-widget-placeholder": "vika/warmup2",
     "kotlin-language-version-configured": "true",
@@ -68,7 +71,7 @@
       <recent name="codingbat.vika.warmup1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.StringYak_Test">
+  <component name="RunManager" selected="TestNG.Array667_Test">
     <configuration name="AltPairs_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Spring2024_Practice" />
       <extension name="coverage">
@@ -86,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array123_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Array667_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Spring2024_Practice" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +98,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup2" />
-      <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup2.Array123_Test" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup2.Array667_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -156,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Array667_Test" />
         <item itemvalue="TestNG.StringYak_Test" />
         <item itemvalue="TestNG.AltPairs_Test" />
         <item itemvalue="TestNG.StringX_Test" />
         <item itemvalue="TestNG.StringMatch_Test" />
-        <item itemvalue="TestNG.Array123_Test" />
       </list>
     </recent_temporary>
   </component>

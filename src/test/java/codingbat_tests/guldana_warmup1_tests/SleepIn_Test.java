@@ -25,6 +25,7 @@ public class SleepIn_Test {
 
     @Test(description = "Verify sleep in function", dataProvider = "sleep_in data_true")
     public void sleepInTestTrue(boolean a, boolean b) {
+
         Assert.assertEquals(sleepIn.sleepIn(a, b), true);
     }
 

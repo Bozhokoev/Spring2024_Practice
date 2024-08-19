@@ -65,7 +65,24 @@
       <recent name="codingbat.vika.warmup1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.StringX_Test">
+  <component name="RunManager" selected="TestNG.AltPairs_Test">
+    <configuration name="AltPairs_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.vika_tests.warmup2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup2" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup2.AltPairs_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Array123_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Spring2024_Practice" />
       <extension name="coverage">
@@ -76,23 +93,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup2" />
       <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup2.Array123_Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayCount9_Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Spring2024_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingbat_tests.vika_tests.warmup2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup2" />
-      <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup2.ArrayCount9_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AltPairs_Test" />
         <item itemvalue="TestNG.StringX_Test" />
         <item itemvalue="TestNG.StringMatch_Test" />
         <item itemvalue="TestNG.Array123_Test" />
         <item itemvalue="TestNG.ArrayFront9_Test" />
-        <item itemvalue="TestNG.ArrayCount9_Test" />
       </list>
     </recent_temporary>
   </component>

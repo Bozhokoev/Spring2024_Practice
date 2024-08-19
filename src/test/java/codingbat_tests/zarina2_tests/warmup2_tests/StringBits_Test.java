@@ -1,7 +1,6 @@
 package codingbat_tests.zarina2_tests.warmup2_tests;
 
 import codingbat.zarina2_warmup2.StringBits;
-import com.beust.ah.A;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01627be6-b2a9-4378-ba34-97da6ec2c461" name="Changes" comment="" />
+    <list default="true" id="01627be6-b2a9-4378-ba34-97da6ec2c461" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/codingbat/vika/warmup2/StringYak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codingbat/vika/warmup2/StringYak.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AltPairs_Test.executor": "Run",
     "TestNG.Array123_Test.executor": "Run",
     "TestNG.ArrayCount9_Test.executor": "Run",
     "TestNG.ArrayFront9_Test.executor": "Run",
@@ -65,7 +68,7 @@
       <recent name="codingbat.vika.warmup1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AltPairs_Test">
+  <component name="RunManager" selected="TestNG.StringYak_Test">
     <configuration name="AltPairs_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Spring2024_Practice" />
       <extension name="coverage">
@@ -93,23 +96,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup2" />
       <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup2.Array123_Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayFront9_Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Spring2024_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingbat_tests.vika_tests.warmup2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup2" />
-      <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup2.ArrayFront9_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -151,13 +137,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringYak_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.vika_tests.warmup2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup2" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup2.StringYak_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StringYak_Test" />
         <item itemvalue="TestNG.AltPairs_Test" />
         <item itemvalue="TestNG.StringX_Test" />
         <item itemvalue="TestNG.StringMatch_Test" />
         <item itemvalue="TestNG.Array123_Test" />
-        <item itemvalue="TestNG.ArrayFront9_Test" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-gitpackage codingbat_tests.rysbek_tests.warmup1_tests;
+package codingbat_tests.rysbek_tests.warmup1_tests;
 
 import codingbat.akim.warmup1.SleepIn;
 import org.testng.Assert;

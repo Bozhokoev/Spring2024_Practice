@@ -1,6 +1,5 @@
 package codingbat_tests.janat_test_warmup2_tests;
 
-import codingbat.janat.warmup2.ArrayCount9;
 import codingbat.janat.warmup2.ArrayFront9;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;

@@ -1,4 +1,4 @@
-package codingbat_tests.amir.tests.warnup1_tests;
+package codingbat_tests.amir.tests.array1_tests;
 
 import codingbat.amir.array1.FirstLast6;
 import org.testng.annotations.DataProvider;

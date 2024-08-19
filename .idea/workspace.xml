@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1809975e-011a-4042-b2df-ed218340900c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2kn18bbU2LSS1G8i8sKhfaIYrWu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Diff21Test.executor": "Run",
+    "TestNG.Makes10Test.executor": "Run",
+    "TestNG.MonkeyTrouble.executor": "Run",
+    "TestNG.ParrotTroubleTest.executor": "Run",
+    "TestNG.ParrotTroubleTest.testParrot.executor": "Run",
+    "TestNG.ParrotTrouble_Test.executor": "Run",
+    "TestNG.SumDoubleTest.executor": "Run",
+    "TestNG.SumDouble_Test.executor": "Run",
+    "git-widget-placeholder": "asylzat/1",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.ParrotTroubleTest">
+    <configuration name="Diff21Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.asylzat.tests_warmup1_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.asylzat.tests_warmup1_test" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.asylzat.tests_warmup1_test.Diff21Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Makes10Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.asylzat.tests_warmup1_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.asylzat.tests_warmup1_test" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.asylzat.tests_warmup1_test.Makes10Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Makes10Test.testMakes10" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.asylzat.tests_warmup1_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.asylzat.tests_warmup1_test" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.asylzat.tests_warmup1_test.Makes10Test" />
+      <option name="METHOD_NAME" value="testMakes10" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParrotTroubleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.asylzat.tests_warmup1_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.asylzat.tests_warmup1_test" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.asylzat.tests_warmup1_test.ParrotTroubleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParrotTroubleTest.testParrot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring2024_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingbat_tests.asylzat.tests_warmup1_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codingbat_tests.asylzat.tests_warmup1_test" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.asylzat.tests_warmup1_test.ParrotTroubleTest" />
+      <option name="METHOD_NAME" value="testParrot" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ParrotTroubleTest" />
+        <item itemvalue="TestNG.Makes10Test.testMakes10" />
+        <item itemvalue="TestNG.Makes10Test" />
+        <item itemvalue="TestNG.ParrotTroubleTest.testParrot" />
+        <item itemvalue="TestNG.Diff21Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1809975e-011a-4042-b2df-ed218340900c" name="Changes" comment="" />
+      <created>1723904367361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723904367361</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

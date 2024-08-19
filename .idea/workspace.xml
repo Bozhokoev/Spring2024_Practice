@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01627be6-b2a9-4378-ba34-97da6ec2c461" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/codingbat_tests/vika_tests/warmup2/StringSplosion_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/codingbat_tests/vika_tests/warmup2/StringSplosion_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,26 +31,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.CountXX_Test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DoubleX_Test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FrontTimes_Test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MonkeyTrouble_Test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NearHundred_Test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PosNeg_Test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SleepIn_Test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.StringBits_Test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.StringTimes_Test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SumDouble_Test.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;vika/warmup2&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CountXX_Test.executor": "Run",
+    "TestNG.DoubleX_Test.executor": "Run",
+    "TestNG.FrontTimes_Test.executor": "Run",
+    "TestNG.Last2_Test.executor": "Run",
+    "TestNG.MonkeyTrouble_Test.executor": "Run",
+    "TestNG.NearHundred_Test.executor": "Run",
+    "TestNG.PosNeg_Test.executor": "Run",
+    "TestNG.SleepIn_Test.executor": "Run",
+    "TestNG.StringBits_Test.executor": "Run",
+    "TestNG.StringSplosion_Test.executor": "Run",
+    "TestNG.StringTimes_Test.executor": "Run",
+    "TestNG.SumDouble_Test.executor": "Run",
+    "git-widget-placeholder": "vika/warmup2",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="codingbat_tests.vika_tests.warmup1" />
@@ -61,7 +62,7 @@
       <recent name="codingbat.vika.warmup1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.StringSplosion_Test">
+  <component name="RunManager" selected="TestNG.Last2_Test">
     <configuration name="CountXX_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Spring2024_Practice" />
       <extension name="coverage">
@@ -96,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrontTimes_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Last2_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Spring2024_Practice" />
       <extension name="coverage">
         <pattern>
@@ -105,7 +106,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="codingbat_tests.vika_tests.warmup2" />
-      <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup2.FrontTimes_Test" />
+      <option name="MAIN_CLASS_NAME" value="codingbat_tests.vika_tests.warmup2.Last2_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Last2_Test" />
         <item itemvalue="TestNG.StringSplosion_Test" />
         <item itemvalue="TestNG.StringBits_Test" />
         <item itemvalue="TestNG.DoubleX_Test" />
         <item itemvalue="TestNG.CountXX_Test" />
-        <item itemvalue="TestNG.FrontTimes_Test" />
       </list>
     </recent_temporary>
   </component>

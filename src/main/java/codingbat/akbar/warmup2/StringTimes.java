@@ -8,5 +8,4 @@ public class StringTimes {
         }
         return res;
     }
-
 }

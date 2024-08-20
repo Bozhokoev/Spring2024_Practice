@@ -9,7 +9,7 @@ public class Makes10_Test {
 
     Makes10 makes10 = new Makes10();
 
-    @DataProvider(name = "makes10")
+    @DataProvider(name = "Makes10")
     public Object[][] dpMakes10() {
         return new Object[][]{
                 {9, 10, true},
@@ -24,7 +24,7 @@ public class Makes10_Test {
         };
     }
 
-    @Test(description = "Verify makes10", dataProvider = "makes10")
+    @Test(description = "Verify Makes10", dataProvider = "Makes10")
     public void makes10_test(int a, int b, boolean res) {
         Assert.assertEquals(makes10.makes10(a, b), res);
     }

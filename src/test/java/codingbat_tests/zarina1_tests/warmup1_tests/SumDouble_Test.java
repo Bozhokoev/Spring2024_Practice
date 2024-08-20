@@ -9,7 +9,7 @@ public class SumDouble_Test {
 
     SumDouble sumDouble = new SumDouble();
 
-    @DataProvider(name = "SumDoubleData")
+    @DataProvider(name = "SumDouble")
     public Object[][] dpSumDouble() {
         return new Object[][]{
                 {1, 2, 3},
@@ -18,7 +18,7 @@ public class SumDouble_Test {
         };
     }
 
-    @Test(description = "SumDoubleData", dataProvider = "SumDoubleData")
+    @Test(description = "Verify SumDouble Function", dataProvider = "SumDouble")
     public void setSumDoubleTest(int a, int b, int expected) {
         Assert.assertEquals(sumDouble.sumDouble(a, b), expected);
     }

@@ -9,7 +9,7 @@ public class NearHundred_Test {
 
     NearHundred nearHundred = new NearHundred();
 
-    @DataProvider(name = "nearHundred")
+    @DataProvider(name = "NearHundred")
     public Object[][] dpNearHundred() {
         return new Object[][]{
                 {93, true},
@@ -34,7 +34,7 @@ public class NearHundred_Test {
         };
     }
 
-    @Test(description = "Verify Near Hundred", dataProvider = "nearHundred")
+    @Test(description = "Verify NearHundred Function", dataProvider = "NearHundred")
     public void nearHundred_test(int a, boolean res) {
         Assert.assertEquals(nearHundred.nearHundred(a), res);
     }

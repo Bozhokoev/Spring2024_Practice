@@ -9,7 +9,7 @@ public class PosNeg_Test {
 
     PosNeg posNeg = new PosNeg();
 
-    @DataProvider(name = "posNeg")
+    @DataProvider(name = "PosNeg")
     public Object[][] dpPosNeg(){
         return new Object[][]{
                 {1, -1, false, true},
@@ -33,7 +33,7 @@ public class PosNeg_Test {
                 {-5, -5, true, true}
         };
     }
-    @Test(description = "Verify Pos Neg", dataProvider = "posNeg")
+    @Test(description = "Verify PosNeg Function", dataProvider = "PosNeg")
     public void posNeg_test(int a, int b, boolean c, boolean res){
         Assert.assertEquals(posNeg.posNeg(a, b, c), res);
 

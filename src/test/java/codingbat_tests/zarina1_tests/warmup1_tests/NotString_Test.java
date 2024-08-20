@@ -9,7 +9,7 @@ public class NotString_Test {
 
     NotString notString = new NotString();
 
-    @DataProvider(name = "notString")
+    @DataProvider(name = "NotString")
     public Object [][] dpNotString(){
         return new Object[][]{
                 {"candy", "not candy"},
@@ -22,7 +22,7 @@ public class NotString_Test {
         };
     }
 
-    @Test(description = "Verify Not String", dataProvider = "notString")
+    @Test(description = "Verify Not String Function", dataProvider = "NotString")
     public void notString_test(String str, String res){
         Assert.assertEquals(notString.notString(str), res);
     }

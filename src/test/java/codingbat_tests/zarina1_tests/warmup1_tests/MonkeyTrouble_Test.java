@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class MonkeyTrouble_Test {
 
     MonkeyTrouble monkeyTrouble = new MonkeyTrouble();
-    @DataProvider(name = "monkey_trouble")
+    @DataProvider(name = "MonkeyTrouble")
     public Object [][] dpMonkeyTrouble(){
         return new Object[][] {
                 {true, true, true},
@@ -17,7 +17,7 @@ public class MonkeyTrouble_Test {
                 {false, true, false}
         };
     }
-    @Test(description = "verify Monkey Trouble function", dataProvider = "monkey_trouble")
+    @Test(description = "Verify MonkeyTrouble Function", dataProvider = "MonkeyTrouble")
     public void monkeyTroubleTest(boolean a, boolean b, boolean exp){
         Assert.assertEquals(monkeyTrouble.monkeyTrouble(a, b), exp);
     }

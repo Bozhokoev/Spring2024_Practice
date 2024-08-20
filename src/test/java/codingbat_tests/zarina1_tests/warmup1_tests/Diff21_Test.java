@@ -9,7 +9,7 @@ public class Diff21_Test {
 
     Diff21 diff21 = new Diff21();
 
-    @DataProvider(name = "diff21")
+    @DataProvider(name = "Diff21")
     public Object [][] dpDiff21(){
         return new Object[][]{
                 {19,2}, {10,11}, {21,0}, {22,2}, {25,8},
@@ -17,7 +17,7 @@ public class Diff21_Test {
         };
     }
 
-    @Test(description =  "Verify Diff21 test", dataProvider = "diff21")
+    @Test(description =  "Verify Diff21 Test", dataProvider = "Diff21")
     public void diff21_test(int a, int res){
         Assert.assertEquals(diff21.diff21(a), res);
     }

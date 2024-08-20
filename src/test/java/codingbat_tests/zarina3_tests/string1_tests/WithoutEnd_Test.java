@@ -1,13 +1,13 @@
 package codingbat_tests.zarina3_tests.string1_tests;
 
-import codingbat.zarina3.string1.WithoutENd;
+import codingbat.zarina3.string1.WithoutEnd;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class WithoutEnd_Test {
 
-    WithoutENd withoutENd = new WithoutENd();
+    WithoutEnd withoutend = new WithoutEnd();
 
     @DataProvider(name = "WithoutEnd")
     public Object[][] dpWithoutEnd(){
@@ -19,7 +19,7 @@ public class WithoutEnd_Test {
     }
     @Test(description = "Verify WitoutEnd Test", dataProvider = "WithoutEnd")
     public void withoutEndTest(String str, String res){
-        Assert.assertEquals(withoutENd.withoutEnd(str),res);
+        Assert.assertEquals(withoutend.withoutEnd(str),res);
     }
 
 }

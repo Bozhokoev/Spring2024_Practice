@@ -1,19 +1,13 @@
 package codingbat_tests.asylzat.tests_warmup1_test;
 
+import codingbat.asylzat.wapmup1.SumDouble;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class SumDoubleTest {
-    public int sumDouble(int a, int b) {
-            int sum = a + b;
-            if(a == b){
-                sum = sum * 2;
-            }
-            return sum;
-        }
-
+public class SumDouble_Test {
+    SumDouble sumDouble = new SumDouble();
         @DataProvider(name = "sumDoubleDataProvider")
         public Object[][] sumDoubleDataProvider() {
             return new Object[][]{
@@ -26,6 +20,6 @@ public class SumDoubleTest {
         }
         @Test(dataProvider = "sumDoubleDataProvider")
         public void testSumDouble(int a, int b, int expectedSum) {
-            assertEquals(sumDouble(a, b), expectedSum);
+            assertEquals(sumDouble.sumDouble(a, b), expectedSum);
         }
     }

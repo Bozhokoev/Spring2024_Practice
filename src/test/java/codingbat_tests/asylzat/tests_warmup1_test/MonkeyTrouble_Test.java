@@ -1,12 +1,11 @@
 package codingbat_tests.asylzat.tests_warmup1_test;
 
+import codingbat.asylzat.wapmup1.MonkeyTrouble;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class MonkeyTrouble {
-        public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
-            return aSmile == bSmile;
-        }
+public class MonkeyTrouble_Test {
+     MonkeyTrouble monkeyTrouble = new MonkeyTrouble();
 
         @DataProvider(name = "monkeyData")
         public Object[][] createData() {
@@ -20,7 +19,7 @@ public class MonkeyTrouble {
 
         @Test(dataProvider = "monkeyData")
         public void testMonkeyTrouble(boolean aSmile, boolean bSmile, boolean expected) {
-            assert monkeyTrouble(aSmile, bSmile) == expected;
+            assert monkeyTrouble.monkeyTrouble(aSmile, bSmile) == expected;
         }
     }
 

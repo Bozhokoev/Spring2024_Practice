@@ -1,15 +1,13 @@
 package codingbat_tests.asylzat.tests_warmup1_test;
 
+import codingbat.asylzat.wapmup1.ParrotTrouble;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class ParrotTroubleTest {
-    public boolean parrotTroubleTest(boolean talking, int hour){
-        return (talking && (hour < 7 || hour > 20));
-    }
-
+public class ParrotTrouble_Test {
+    ParrotTrouble parrotTrouble = new ParrotTrouble();
     @DataProvider(name = "parrotTestData")
     public Object[][] parrotTestData() {
         return new Object[][] {
@@ -25,6 +23,6 @@ public class ParrotTroubleTest {
     @Test(dataProvider = "parrotTestData")
     public void testParrot(boolean talking, int hour, boolean expected) {
 
-        assertEquals(parrotTroubleTest(talking, hour), expected);
+        assertEquals(parrotTrouble.parrotTrouble(talking, hour), expected);
     }
 }

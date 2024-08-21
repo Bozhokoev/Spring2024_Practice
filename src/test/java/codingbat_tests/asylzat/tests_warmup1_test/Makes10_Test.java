@@ -1,16 +1,14 @@
 package codingbat_tests.asylzat.tests_warmup1_test;
 
-import org.testng.Assert;
+import codingbat.asylzat.wapmup1.Makes10;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
 
-public class Makes10Test {
+public class Makes10_Test {
 
-    public boolean makes10(int a, int b) {
-        return (a == 10 || b == 10 || a + b == 10);
-    }
+    Makes10 makes10 = new Makes10();
 
     @DataProvider
             (name = "makes10TestData")
@@ -25,8 +23,8 @@ public class Makes10Test {
     }
 
    @Test
-            (dataProvider = "makes10TestData",dataProviderClass = Makes10Test.class)
+            (dataProvider = "makes10TestData",dataProviderClass = Makes10_Test.class)
     public void testMakes10(int a, int b, boolean expected) {
-        assert (makes10(a,b) == expected);
+        assert (makes10.makes10(a,b) == expected);
     }
 }

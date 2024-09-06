@@ -19,7 +19,7 @@ public Object[][] sumDoubleData() {
     @Test(dataProvider = "SumDoubleData")
     public void testSumDouble(int a, int b, int expected) {
         SumDouble sumDouble = new SumDouble();
-        int result = sumDouble.sumDouble(a, b);
+        int result = sumDouble.sumDouble(a,b);
         assertEquals(result, expected, "SumDouble method failed for inputs: " + a + " and " + b);
     }
 }
